@@ -28,13 +28,36 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "src/assets",
+                "output": "assets"
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/all.min.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/magnific-popup.css",
+              "src/assets/css/meanmenu.css",
+              "src/assets/css/swiper-bundle.min.css",
+              "src/assets/css/nice-select.css",
+              "src/assets/css/icomoon.css",
+              "src/assets/css/main.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/js/jquery-3.7.1.min.js",
+              "src/assets/js/viewport.jquery.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/jquery.nice-select.min.js",
+              "src/assets/js/jquery.waypoints.js",
+              "src/assets/js/jquery.counterup.min.js",
+              "src/assets/js/swiper-bundle.min.js",
+              "src/assets/js/jquery.meanmenu.min.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/wow.min.js",
+              "src/assets/js/gsap.min.js",
+              "src/assets/js/main.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -103,5 +126,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "6a0de77b-5e8d-4bc2-a255-c2b4c18bf6db"
   }
 }
